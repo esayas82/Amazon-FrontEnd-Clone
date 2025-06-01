@@ -1,13 +1,13 @@
 {
-  "homepage":"https://esayas82.github.io/Amazon-FrontEnd-Clone",
+  "homepage": "https://esayas82.github.io/Amazon-FrontEnd-Clone",
   "name": "amazon-clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -17,6 +17,7 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^7.1.0",
     "axios": "^1.9.0",
+    "firebase": "^11.8.1",
     "numeral": "^2.0.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
