@@ -10,6 +10,7 @@ import { auth } from './Utility/firebase'
 
 
 
+
 function App() {
   const [{user}, dispatch] = useContext(DataContext);
   useEffect(() => {
