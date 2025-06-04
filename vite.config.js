@@ -3,11 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // ✅ Use relative path for Netlify
+  base: '/Amazon-FrontEnd-Clone/',
   plugins: [react()],
   server: {
     port: 5173,
-    strictPort: true
+    strictPort: true  
   }
 })
-
